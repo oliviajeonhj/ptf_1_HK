@@ -1,0 +1,47 @@
+{
+  "bannerSection" :
+    [
+      {
+        "slidecls" : "banner1",
+        "bgImg" : "url(/hk/banner1.jpg)"
+      },
+      {
+        "slidecls" : "banner2",
+        "bgImg" : "url(/hk/banner2.jpg)"
+    
+      },
+      {
+        "slidecls" : "banner3",
+        "bgImg" : "url(/hk/banner3.jpg)"
+    
+      },
+      {
+        "slidecls" : "banner4",
+        "bgImg" : "url(/hk/banner4.jpg)"
+    
+      }
+    ],
+    "reviewSection" :
+    [
+      {
+        "slidecls" : "review1",
+        "bgImg" : "url(/review/review1.png)"
+  
+      },
+      {
+        "slidecls" : "review2",
+        "bgImg" : "url(/review/review2.png)"
+    
+      },
+      {
+        "slidecls" : "review3",
+        "bgImg" : "url(/review/review3.png)"
+    
+      },
+      {
+        "slidecls" : "review4",
+        "bgImg" : "url(/review/review4.png)"
+    
+      }
+    ]
+}
