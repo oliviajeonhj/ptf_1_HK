@@ -27,10 +27,8 @@ a{
             transform-origin: center;
             transition: 0.5s;
         }
-
     }
     
-
     #hd{
         background-color: white;
         transition: 0.5s;
@@ -51,9 +49,9 @@ a{
                 g{
                     g{ fill: black; transition: 0.5s;}
                 }
-
             }         
         }
+
         #allMenu{
             font-weight: 500;
         }
@@ -71,26 +69,19 @@ a{
             max-height: 0;
             overflow: hidden;
             transition:  max-height 0.5s ease-out;
-
             a{
                 color:black !important
             }
-
             &:before,
             &:after{
                 content: "";
                 display: block;
                 height: 1rem;
-
             }
-
             &.on{
                 max-height: calc(100vh - 50px); 
-                
             }
-
-        }
-        
+        }      
     }
     nav{
         font-size: 1.3rem;
@@ -108,41 +99,16 @@ a{
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-
              }
-             .banner1, .banner2, .banner3, .banner4{
+             .bannerImg{
                 background-repeat: no-repeat;
                 background-position: center;
-                background-size: contain;
-
-             }
-
-             .banner1{
-                // background-image: url(../../public/hk/banner1.jpg);
-                
+                background-size: cover;
                 @media (max-width:1024px) {
                     background-size: cover;     
                 }
              }
-             .banner2{
-                // background-image: url(../../public/hk/banner2.jpg);
-                @media (max-width:1024px) {
-                    background-size: cover;
-                }
-             }
-
-             .banner3{
-                // background-image: url(../../public/hk/banner3.jpg);
-                @media (max-width:1024px) {
-                    background-size: cover;
-                }
-             }
-             .banner4{
-                // background-image: url(../../public/hk/banner4.jpg);
-                @media (max-width:1024px) {
-                    background-size: cover;
-                }
-             }
+             .rankstar {display: none;}
         }
         }
         .swiper-scrollbar-horizontal{
@@ -156,7 +122,7 @@ a{
 
 
     .inner{
-        max-width: 760px;
+        max-width: 1000px;
         margin: 0 auto;
     }
 
@@ -178,36 +144,44 @@ a{
         overflow: hidden;
     }
 
+    #lecture{
+        height: 100vh;
+            .lectureImg{
+                background-repeat: no-repeat;
+                background-size: contain;
+        }
+
+    }
+
+
     #gallery{
-        .swiper {
-            width: 100%;
-            height: 100%;
-            margin-left: auto;
-            margin-right: auto;
-          }
-    
+        height: 100vh;
+        .swiper-wrapper{ 
+           flex-direction: row !important;
+        }
           .swiper-slide {
-            text-align: center;
-            font-size: 18px;
-            background: #fff;
             height: calc((100% - 30px) / 2) !important;
-    
-            /* Center slide text vertically */
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: -webkit-flex;
             display: flex;
             -webkit-box-pack: center;
             -ms-flex-pack: center;
             -webkit-justify-content: center;
-            justify-content: center;
+            justify-content: end;
             -webkit-box-align: center;
             -ms-flex-align: center;
             -webkit-align-items: center;
-            align-items: center;
+            align-items: flex-start;
           }
+        .galleyImg{
+            background-repeat: no-repeat;
+            background-size: cover;
+            @media (max-width:1024px) {
+                background-size: contain;     
+            }
+        }
+        .hearticon{
+            color: red;
+        }
     }
-
 
     .section{
         height: calc(100vh - 120px);
@@ -217,42 +191,19 @@ a{
     #review{
         .swiper-wrapper{
              .swiper-slide{
-                min-height: 80vh;
+                min-height: 70vh;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-
+                transform: scale(0.8333);
              }
-             .review1, .review2, .review3, .review4{
+             .reviewImg{
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: contain;
-
-             }
-
-             .review1{
-                
                 @media (max-width:1024px) {
                     background-size: cover;     
-                }
-             }
-             .review2{
-                @media (max-width:1024px) {
-                    background-size: cover;
-                }
-             }
-
-             .review3{
-
-                @media (max-width:1024px) {
-                    background-size: cover;
-                }
-             }
-             .review4{
-
-                @media (max-width:1024px) {
-                    background-size: cover;
                 }
              }
         }

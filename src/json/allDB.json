@@ -14,7 +14,7 @@
                   }
   ],
 
-  "noticeDB" : 
+  "qnaDB" : 
   [{
     "subject" : "카메라는 어떤걸 쓰시나요",
     "content" : "질문에 관한 답변 입니다"

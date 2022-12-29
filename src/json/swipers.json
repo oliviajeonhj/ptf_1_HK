@@ -2,46 +2,117 @@
   "bannerSection" :
     [
       {
-        "slidecls" : "banner1",
-        "bgImg" : "url(/hk/banner1.jpg)"
+        "slidecls" : "bannerImg",
+        "bgImg" : "url(/img/hk/main/main1.png)"
+
       },
       {
-        "slidecls" : "banner2",
-        "bgImg" : "url(/hk/banner2.jpg)"
-    
-      },
-      {
-        "slidecls" : "banner3",
-        "bgImg" : "url(/hk/banner3.jpg)"
-    
-      },
-      {
-        "slidecls" : "banner4",
-        "bgImg" : "url(/hk/banner4.jpg)"
+        "slidecls" : "bannerImg",
+        "bgImg" : "url(/img/hk/main/main2.png)"
     
       }
     ],
     "reviewSection" :
     [
       {
-        "slidecls" : "review1",
-        "bgImg" : "url(/review/review1.png)"
+        "slidecls" : "reviewImg",
+        "bgImg" : "",
+        "userid" : "정**",
+        "userreview" : "그 동안 아이 사진을 찍어주면서 내가 똥손이라 이렇게 예쁜 우리 아이 모습을 잘 못담아 내는구나 속상한적이 많았는데, 이제 예쁜 사진 많이 찍을 수 있을 것 같은 용기가 생겼어요! 처음에 신청할때에는 “라이트룸이라는걸 어떻게 쓰는지만 알면 되지~ 했는데, 강의 들으면서 따라하다보니 너무 재미있어서 더 배우고싶어집니다^^ 다음 강의 오픈되면 얼른 들으러 올께요^^ 넘넘 감사합니다^^"
   
       },
       {
-        "slidecls" : "review2",
-        "bgImg" : "url(/review/review2.png)"
+        "slidecls" : "reviewImg",
+        "bgImg" : "",
+        "userid" : "빨*******",
+        "userreview" : "짝짝짝👏🏻 강의 너무 감사드려요~ 늘 사진찍고 보정하면 너무 맘에 안 들었는데 이렇게 쉽고 귀에 쏙쏙 들어오는 강의를 진행해주셔서 너무 감사드려요~ 아직 초보라 천천히 따라하면서 해보고 있는데 시간날때마다 수시로 알려주신 수업 잘 기억해서 연습하려고 해요~ 최고의 수업이었어요👍🏻"
     
       },
       {
-        "slidecls" : "review3",
-        "bgImg" : "url(/review/review3.png)"
+        "slidecls" : "reviewImg",
+        "bgImg" : "",
+        "userid" : "김**",
+        "userreview" : "4강 챕터를 마치며에서 말씀 하셨던 것 처럼 사진보정은 전문가나..배운사람이나 하는 거지 라고 생각했어요. 근데 초사보 수업을 통해 보정이 주는 사진의 차이를 느끼고 보정에 대해 많이 생각이 바꼈어요. 이 수업을 들었다고 해서 정말 힘듦없이 뚝딱 보정할 수 있게 됐다!라고는 못하겠지만 보정에 대한 문턱이 낮아졌다는 거에 큰 만족감을 느낍니다. 유익한 강의 감사합니다"
     
       },
       {
-        "slidecls" : "review4",
-        "bgImg" : "url(/review/review4.png)"
+        "slidecls" : "reviewImg",
+        "bgImg" : "",
+        "userid" : "L*****",
+        "userreview" : "사진을 찍고 비슷한 사진이 넘쳐흐르는 휴대폰을 보면서 휴대폰의 용량을 키우고 클라우드 용량을 키웠습니다. 사진 정리하는 별점 부분에선 웨딩촬영에서 셀렉할 때가 떠올랐어요. 라이트룸을 이용해 아쉬웠던 부분을 보정하며 아이와의 추억을 예쁘게 정리해 잘 전해주고 싶습니다. 좋은 강의 감사합니다."
+      },
+      {
+        "slidecls" : "reviewImg",
+        "bgImg" : "",
+        "userid" : "e*****",
+        "userreview" : "시작전에는 내가 따라할 수 있을까 도움이 될까 의구심도 있었는데 강의를 들어보니 누그나 따라할수 있도록 쉽게 정말 자세히 차근차근 알려주시더라구요 덕분애 완강 하고 보정 실력도 늘은듯 해요! 사진찍는건 앞으로 배웠던거 기억하며 적용해보겠습니다!!좋은강의 만들어주셔서 감사해요!"
+      }
+
+    ],
+    "gallerySection" :
+    [
+      {
+        "slidecls" : "galleyImg",
+        "bgImg" : "url(/img/hk/gallery/gallery1.jpg)"
+
+      },
+      {
+        "slidecls" : "galleyImg",
+        "bgImg" : "url(/img/hk/gallery/gallery2.jpg)"
+    
+      },
+      {
+        "slidecls" : "galleyImg",
+        "bgImg" : "url(/img/hk/gallery/gallery3.jpg)"
+    
+      },
+      {
+        "slidecls" : "galleyImg",
+        "bgImg" : "url(/img/hk/gallery/gallery4.jpg)"
+    
+      },
+      {
+        "slidecls" : "galleyImg",
+        "bgImg" : "url(/img/hk/gallery/gallery1.jpg)"
+
+      },
+      {
+        "slidecls" : "galleyImg",
+        "bgImg" : "url(/img/hk/gallery/gallery2.jpg)"
+    
+      },
+      {
+        "slidecls" : "galleyImg",
+        "bgImg" : "url(/img/hk/gallery/gallery3.jpg)"
+    
+      },
+      {
+        "slidecls" : "galleyImg",
+        "bgImg" : "url(/img/hk/gallery/gallery4.jpg)"
+    
+      }
+    ],
+    "lectureSection" :
+    [
+      {
+        "slidecls" : "lectureImg",
+        "bgImg" : "url(/img/hk/lecture/lec1.png)"
+
+      },
+      {
+        "slidecls" : "lectureImg",
+        "bgImg" : "url(/img/hk/lecture/lec2.png)"
+    
+      },
+      {
+        "slidecls" : "lectureImg",
+        "bgImg" : "url(/img/hk/lecture/lec3.png)"
+    
+      },
+      {
+        "slidecls" : "lectureImg",
+        "bgImg" : "url(/img/hk/lecture/lec4.png)"
     
       }
     ]
-}
+  }
